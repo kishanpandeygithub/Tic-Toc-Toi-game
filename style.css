@@ -32,8 +32,8 @@ body {
     margin-bottom: 20px;
 }
 .box{
-    height: 400px;
-    width: 400px;
+    height: 385px;
+    width: 385px;
     /* background-color: rgb(11, 117, 124); */
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -46,4 +46,28 @@ body {
     margin: auto;
     border: 1px solid black;
     border-radius: 10px;
+    /* text-align: center; */
+    font-weight:500;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.result{
+    font-size: 19px;
+    font-weight: 400;
+    color: red;
+}
+button{
+    background-color: green;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    align-self:center;
 }
