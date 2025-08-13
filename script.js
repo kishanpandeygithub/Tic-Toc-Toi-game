@@ -7,6 +7,7 @@ let winner = [
     [0, 4, 8], [2, 4, 6]
 ];
 
+//array for storing ans 
 let board_array = new Array(9).fill("E");
 
 
